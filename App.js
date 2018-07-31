@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { RNCamera, FaceDetector } from 'react-native-camera';
+import MapView from 'react-native-maps';
 
 export default class App extends React.Component {
   render() {
